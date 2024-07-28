@@ -796,7 +796,6 @@ static int f2fs_compressed_blocks(struct compress_ctx *cc)
 }
 
 /* return # of valid blocks in compressed cluster */
-static int f2fs_cluster_blocks(struct compress_ctx *cc, bool compr)
 {
 	return __f2fs_cluster_blocks(cc, false);
 }
